@@ -1,7 +1,7 @@
 #!/bin/sh
 apt-get update -y; apt-get upgrade -y
 apt-get install htop
-apt-get install build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev libncurses5-dev pkg-config yasm
+apt-get install build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev libncurses5-dev pkg-config yasm -y
 git clone https://github.com/tpruvot/cpuminer-multi
 cd cpuminer-multi
 ./build.sh
